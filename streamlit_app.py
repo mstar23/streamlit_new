@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # 헤드라인
-st.write("# 보험료 예측")
-st.write("> 힘들다!!!!")
+st.write("# 빅데이터 보험료 예측")
+st.write("## 정신 똑디 차려")
 
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
