@@ -5,7 +5,7 @@ import numpy as np
 # 헤드라인
 st.write("# 빅데이터 보험료 예측")
 st.write("## 🤢정신 똑디 차려🤢")
-st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fusefulguide.net%2Fbmi-%25EA%25B3%2584%25EC%2582%25B0%25EA%25B8%25B0%2F&psig=AOvVaw2oXp0wGw3f3HMwXdh5Tkiu&ust=1667964515298000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKidwJXSnfsCFQAAAAAdAAAAABAD")
+st.image("https://usefulguide.net/wp-content/uploads/2022/08/BMI-%EC%A7%80%EC%88%98%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%B2%B4%ED%98%95.jpg")
 
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
