@@ -3,10 +3,8 @@ import joblib
 import numpy as np
 
 # 헤드라인
-st.write("# 빅데이터 보험료 예측")
-st.write("## 🤢정신 똑디 차려🤢")
-st.image('https://usefulguide.net/wp-content/uploads/2022/08/BMI-%EC%A7%80%EC%88%98%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%B2%B4%ED%98%95.jpg',caption='BMI 사진',width=500)
-# st.image(img, width=400, caption=”Image example: BMI”)
+st.write("# 💲보험료 예측하기")
+st.image('https://www.accuquote.com/wp-content/uploads/2019/08/hands-in-hands-protecting-paper-family.jpg',caption='Insurance')
 
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
@@ -28,7 +26,7 @@ sex = r2_col2.selectbox("sex", sex_option)
 is_male = sex_option[0] == sex
 
 region_option = ('southwest', 'southeast', 'northwest', 'northeast')
-region = r2_col3.selectbox("region", region_option)
+region = r2_col3.radio("region", region_option)  # selectbox
 is_southwest = region_option[0] == region
 is_southeast = region_option[1] == region
 is_northwest = region_option[2] == region
